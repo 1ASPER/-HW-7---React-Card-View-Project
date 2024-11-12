@@ -1,0 +1,17 @@
+npx create-react-app app
+cd app
+npm start
+
+Deleted:
+app/src/App.css app/src/App.test.js app/src/logo.svg app/src/reportWebVitals.js app/src/setupTests.js
+
+Deleted
+(index.js line 5 and 14)
+import reportWebVitals from './reportWebVitals';
+
+
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+reportWebVitals();
+
