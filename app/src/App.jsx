@@ -17,7 +17,6 @@ function App() {
 
   return (
     <div>
-      {/* <button onClick={() => setProducts([])}>button</button> */}
       
       <div className="product-list">
         {loading && <div>Loading...</div>}
