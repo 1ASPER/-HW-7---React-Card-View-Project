@@ -19,7 +19,7 @@ function App() {
     <div>
       
       <div className="product-list">
-        {loading && <div>Loading...</div>}
+        {loading && <div className="loading-wrapper"> <div>Loading...</div> </div>}
         {products.map((product) => (
           <ProductCard data={product} />
         ))}
